@@ -41,15 +41,29 @@ While most of my work involves **NDA-protected enterprise projects**, I actively
 
 ---
 
-### 🛠 **Core Tech Stack**
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react&logoColor=61DAFB)
+### 🛠 **Tech Stack**
+
+**Backend & Architecture**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Frontend & Mobile**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+**Cloud & DevOps**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
-### 🏆 **Open Source Contributions**
+### 🏆 Open Source Contributions
 
 I am an active contributor to the global open-source ecosystem, ranging from **Data Visualization (React)** to **High-Performance Messaging Queues (Rust)**.
 
@@ -61,12 +75,28 @@ I am an active contributor to the global open-source ecosystem, ranging from **D
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=robustmq&repo=robustmq&theme=radical&show_owner=true" alt="RobustMQ" />
   </a>
 </div>
+<div align="center">
+  <a href="https://github.com/OpenZeppelin/rust-contracts-stylus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=OpenZeppelin&repo=rust-contracts-stylus&theme=radical&show_owner=true" alt="OpenZeppelin" />
+  </a>
+</div>
 
-- **[Recharts](https://github.com/recharts/recharts):** Optimized TypeScript definitions (`Label.tsx`) to eliminate implicit-any types, enhancing build stability.
-- **[RobustMQ](https://github.com/robustmq/robustmq):** Implemented `mqtt schema` CLI features and refactored logging architecture in Rust.
-- **[OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus):** Contributed to the official documentation for secure blockchain smart contracts.
+<br/>
 
----
+#### 🛠 **Key Contributions**
+
+**1. [Recharts](https://github.com/recharts/recharts) (24k+ Stars)**
+> *The most popular React charting library.*
+- **TypeScript Optimization:** Refactored `Label.tsx` to eliminate implicit-any types, enhancing type safety and build stability for millions of users. ([PR #5600](https://github.com/recharts/recharts/pull/5600))
+
+**2. [RobustMQ](https://github.com/robustmq/robustmq) (Rust)**
+> *Next-generation cloud-native message queue written in Rust.*
+- **Core Feature Dev:** Implemented `mqtt schema` command CLI for better protocol handling. ([PR #911](https://github.com/robustmq/robustmq/pull/911))
+- **System Stability:** Refactored Broker Server logging architecture to improve observability during start/stop lifecycles. ([PR #906](https://github.com/robustmq/robustmq/pull/906))
+
+**3. [OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus)**
+> *The standard for secure blockchain applications.*
+- **Documentation:** Contributed to the official documentation for Rust-based smart contracts, ensuring accuracy for developers. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
 
 ### 📫 **Connect with Me**
 - **Email:** boksepyunsal24@gmail.com
