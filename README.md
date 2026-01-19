@@ -58,5 +58,3 @@ While most of my work involves **NDA-protected enterprise projects**, I actively
   <img align="left" width="130" src="https://github-readme-stats.vercel.app/api/pin/?username=robustmq&repo=robustmq&theme=radical&show_owner=true" />
 </a>
 <br/><br/><br/><br/><br/><br/>
-
-👉 **[Detailed Portfolio (Notion)](https://iamjaeholee.notion.site/-2950ae816d758098b116ffd8e3bade8f)**
