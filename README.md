@@ -49,12 +49,24 @@ While most of my work involves **NDA-protected enterprise projects**, I actively
 ![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react&logoColor=61DAFB)
 
 ---
-
 ### 🏆 **Open Source Contributions**
-<a href="https://github.com/recharts/recharts">
-  <img align="left" width="130" src="https://github-readme-stats.vercel.app/api/pin/?username=recharts&repo=recharts&theme=radical&show_owner=true" />
-</a>
-<a href="https://github.com/robustmq/robustmq">
-  <img align="left" width="130" src="https://github-readme-stats.vercel.app/api/pin/?username=robustmq&repo=robustmq&theme=radical&show_owner=true" />
-</a>
-<br/><br/><br/><br/><br/><br/>
+
+I am an active contributor to the global open-source ecosystem, ranging from **Data Visualization (React)** to **High-Performance Messaging Queues (Rust)**.
+
+<div align="center">
+  <a href="https://github.com/recharts/recharts">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=recharts&repo=recharts&theme=radical&show_owner=true" alt="Recharts" />
+  </a>
+  <a href="https://github.com/robustmq/robustmq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=robustmq&repo=robustmq&theme=radical&show_owner=true" alt="RobustMQ" />
+  </a>
+</div>
+
+- **[Recharts](https://github.com/recharts/recharts):** Optimized TypeScript definitions (`Label.tsx`) to eliminate implicit-any types, enhancing build stability.
+- **[RobustMQ](https://github.com/robustmq/robustmq):** Implemented `mqtt schema` CLI features and refactored logging architecture in Rust.
+- **[OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus):** Contributed to the official documentation for secure blockchain smart contracts.
+
+---
+
+### 📫 **Connect with Me**
+- **Email:** boksepyunsal24@gmail.com
