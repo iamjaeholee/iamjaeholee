@@ -63,6 +63,14 @@ While most of my work involves **NDA-protected enterprise projects**, I actively
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
+### 👥 **Community & Leadership**
+
+**Algorithm of the Legends (Community Lead)**
+> *Founded and actively managing a developer community dedicated to algorithm problem-solving.*
+- **Role:** Organizer & Code Reviewer
+- **Activity:** Conducting weekly code reviews and sharing optimization strategies for algorithmic challenges (Baekjoon, LeetCode).
+- **Link:** [Visit Organization](https://github.com/algorithmofthelegends)
+---
 ### 🏆 Open Source Contributions
 
 I am an active contributor to the global open-source ecosystem, ranging from **Data Visualization (React)** to **High-Performance Messaging Queues (Rust)**.
