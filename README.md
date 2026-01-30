@@ -107,6 +107,12 @@ I am an active contributor to the global open-source ecosystem, ranging from **D
 - **Documentation:** Contributed to the official documentation for Rust-based smart contracts, ensuring accuracy for developers. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
 
 ---
+### 🏆 **Certifications**
+- **AWS Certified Solutions Architect – Associate** (Jan 2026 - Jan 2029)
+  - *Scored 774/1000 - Demonstrating expertise in architecting secure and robust solutions on AWS.*
+  - [Verify via Credly](https://www.credly.com/badges/d48afb96-eb86-4599-ae11-ce1514a04a5d/public_url)
+
+---
 ### 📚 **Knowledge Sharing & Content**
 > *"I simplify complex tech concepts for everyone under the brand 'Bokse-Pyeonsal'."*
 
