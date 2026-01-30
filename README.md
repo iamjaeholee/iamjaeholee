@@ -109,8 +109,8 @@ I am an active contributor to the global open-source ecosystem, ranging from **D
 ---
 ### 🏆 **Certifications**
 - **AWS Certified Solutions Architect – Associate** (Jan 2026 - Jan 2029)
-- *Certified in January 2026*
-- [Verify via Credly](https://www.credly.com/badges/d48afb96-eb86-4599-ae11-ce1514a04a5d/public_url)
+  - *Certified in January 2026*
+  - [Verify via Credly](https://www.credly.com/badges/d48afb96-eb86-4599-ae11-ce1514a04a5d/public_url)
 
 ---
 ### 📚 **Knowledge Sharing & Content**
