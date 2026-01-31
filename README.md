@@ -124,8 +124,6 @@ I am actively sharing technical insights and developer lifestyle tips through va
 | **YouTube** | Easy-to-understand **Coding Tutorials & Career Advice** | [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@boksepyunsal24) |
 | **Instagram** | **Daily Dev Tips**, Workspace Setup, and Motivation | [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bokse_coding/) |
 
-👉 **[Detailed Portfolio (Notion)](https://iamjaeholee.notion.site/d8ca4050de0a42a7a3706c9e2832a4c6?source=copy_link)**
-
 ---
 ### 📫 **Connect with Me**
 - **Email:** boksepyunsal24@gmail.com
