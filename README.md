@@ -113,17 +113,5 @@ I am an active contributor to the global open-source ecosystem, ranging from **D
   - [Verify via Credly](https://www.credly.com/badges/d48afb96-eb86-4599-ae11-ce1514a04a5d/public_url)
 
 ---
-### 📚 **Knowledge Sharing & Content**
-> *"I simplify complex tech concepts for everyone under the brand 'Bokse-Pyeonsal'."*
-
-I am actively sharing technical insights and developer lifestyle tips through various media channels.
-
-| Channel | Content Focus | Link |
-|:---:|:---|:---:|
-| **Technical Blog** | Deep dive into **Retrospectives, Troubleshooting, and Tech Trends** | [![Velog](https://img.shields.io/badge/Velog-11B48A?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@iamjaeholee/posts) |
-| **YouTube** | Easy-to-understand **Coding Tutorials & Career Advice** | [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@boksepyunsal24) |
-| **Instagram** | **Daily Dev Tips**, Workspace Setup, and Motivation | [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bokse_coding/) |
-
----
 ### 📫 **Connect with Me**
 - **Email:** boksepyunsal24@gmail.com
