@@ -41,6 +41,17 @@ While most of my work involves **NDA-protected enterprise projects**, I actively
 
 ---
 
+### 🌿 **The Boksepyeonsal Initiative**
+> *"Simplifying the world through fair technology."*
+
+**[Sumjima (숨지마)](https://github.com/boksepyeonsal/sumjima)**
+- **Concept:** An open-source service matching platform designed to eliminate unfair commission structures and "connection taxes."
+- **Tech Stack:** Built with **Next.js (App Router)** and **Supabase**, leveraging serverless architecture for high scalability and low maintenance.
+- **Goal:** Empowering experts and clients to connect on an equal footing, restoring fairness to the service market through open-source innovation.
+- **Status:** Actively seeking contributors to build a more transparent matching ecosystem.
+
+---
+
 ### 🛠 **Tech Stack**
 
 **Backend & Architecture**
