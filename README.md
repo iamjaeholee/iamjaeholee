@@ -1,19 +1,19 @@
 ### Hi there, I'm Jaeho 👋
-**Senior Software Engineer — DevOps / SRE / Full-Stack**
+**Senior DevOps / SRE / Cloud Infrastructure Engineer**
 
 > Designing and Operating Cloud-Native Infrastructure with Kubernetes, Terraform & AWS
 
-6+ years of experience building **production cloud infrastructure** and **full-stack applications** across 9+ companies.
-Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) operations**, **serverless architecture**, and **full-cycle development**.
+6+ years of experience building **production cloud infrastructure** across 9+ companies.
+Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) operations**, **CI/CD automation**, and **serverless architecture**.
 
 ---
 
 ### ⚡ Highlights
 
-- 🏗️ **ECS → EKS Migration** — Transitioned to GitOps with Terraform & ArgoCD, introduced Service Mesh (FitPet)
-- ☁️ **AWS Serverless Platform** — Built power forecasting SaaS & internal LLM chatbot on Lambda + DynamoDB + Athena (GS Energy)
-- 🦀 **Rust + Serverless** — Developed high-performance RESTful APIs with Rust on AWS Lambda (Hut-Dul-Hut-Dul)
-- 📊 **Observability** — Optimized Datadog monitoring costs & built ELK Stack search engine
+- 🏗️ **ECS → EKS Migration** — Full Terraform IaC migration with ArgoCD GitOps & Service Mesh (FitPet)
+- ☁️ **AWS Serverless Platform** — Built power forecasting SaaS & RAG-based LLM chatbot on Lambda + CDK (GS Energy)
+- 🔭 **Observability** — Reduced Datadog costs via span/log optimization; built LangChain Tracing LLM pipeline
+- 🔐 **Security Architecture** — Envelope Encryption + TOTP secure comm, EKS RBAC & IAM automation
 - ☁️ **AWS Certified Solutions Architect – Associate** (2026–2029)
 
 ---
@@ -21,43 +21,38 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 ### 🚀 Key Engineering Achievements
 
 #### 1. AWS EKS Infrastructure & GitOps (DevOps)
-> *FitPet — Infrastructure Team Manager (2021.08 ~ 2023.02)*
-- Migrated all services from **ECS/Beanstalk → EKS(Kubernetes)** using Terraform (IaC)
-- Configured **ArgoCD**-based GitOps deployment and designed IAM-integrated **RBAC** access control
-- Introduced **Service Mesh** for stable inter-service communication in MSA
-- Optimized monitoring costs through **Datadog** Ingested span / Indexed log analysis
-- Built a serverless admin system for EKS resource management using AWS Amplify + Lambda
+> *FitPet — Infrastructure Team (2022.11 ~ 2023.02)*
+- Migrated all services from **ECS → EKS** using Terraform IaC, introduced Service Mesh for MSA stability
+- Designed IAM-integrated **RBAC** access control and configured **ArgoCD**-based GitOps deployment
+- Built serverless EKS resource scheduling admin system with AWS Lambda + Amplify + Cognito
+- Reduced **Datadog** monitoring costs by restructuring Ingested Span / Indexed Log strategies
 - Established **Kubernetes autoscaling** for improved availability and reliability
-- Built and enhanced **ELK Stack** (ElasticSearch) search engine server
 
-#### 2. Serverless Data Platform & LLM Chatbot
-> *GS Energy — Full-Stack & AWS Infra (2024.11 ~ 2025.11)*
-- Developed power forecasting algorithm integration and electricity exchange bidding API on AWS **Lambda (Node.js)**
-- Designed **DynamoDB** schema based on Access Patterns for optimized data handling
-- Built a full-stack **internal LLM-powered chatbot** web application
-- Implemented SSO environment with AWS **Cognito + Okta (IdP)** integration
-- Configured large-scale log data query pipeline using **S3 + Athena**
+#### 2. Serverless Infrastructure & AI Platform (DevOps + LLM)
+> *GS Energy — AWS Infra & Full-Stack (2024.11 ~ 2025.11)*
+- Automated full AI infrastructure with **AWS CDK (IaC)**: Lambda, OpenSearch, Secrets Manager, SSM
+- Implemented **multi-stage CI/CD** pipeline (dev→sandbox→prod) with GitHub Actions + branch strategy
+- Designed **Naive RAG + Agentic RAG** dual-architecture LLM chatbot (AWS Bedrock + OpenSearch vector store)
+- Built **LangChain Tracing**-based LLM observability pipeline; integrated chatbot into Microsoft Teams
+- Configured large-scale data pipeline using **S3 + Athena**; designed DynamoDB schema by Access Pattern
 
-#### 3. Rust-Powered Serverless API & Mobile App
-> *Hut-Dul-Hut-Dul — Full-Stack (2024.04 ~ 2024.07)*
-- Developed high-performance RESTful APIs using **Rust** on AWS Lambda
-- Optimized large-scale S3 data queries with **Athena**
-- Built serverless crawlers with Node.js + Puppeteer for automated data collection to S3
-- Automated full AWS infrastructure (Lambda, S3, API Gateway) with **Terraform** (IaC)
-- Developed cross-platform mobile app with **Flutter** (Bloc, GetIt)
+#### 3. IaC Automation & Serverless API (Terraform + Rust)
+> *Hut-Dul-Hut-Dul — Infra & Backend (2024.04 ~ 2024.07)*
+- Automated full AWS infrastructure (Lambda, S3, API Gateway, Athena) with **Terraform** IaC
+- Developed high-performance RESTful APIs using **Rust + Tokio** on AWS Lambda (Cargo Lambda)
+- Built serverless crawlers with Node.js + Puppeteer → S3 ingestion pipeline
 
-#### 4. Enterprise HR SaaS Platform (Full-Stack)
-> *Lotte Innovate — via MinCompany (2025.11 ~ 2026.01)*
-- Developed multi-tenant HR SaaS common modules with **Spring Boot 3.x + React.js**
-- Designed and implemented RBAC-based menu/program access control system
-- Built enterprise-standard features: common codes, i18n, auto-numbering system
-- Created and published **MyBatis Formatter** VS Code Extension to improve team productivity
+#### 4. DevOps Tooling & Secure Server Infrastructure
+> *CODEMIND Corp. — Senior Research Engineer (2023.06 ~ 2024.04)*
+- Deployed scalable license/update servers with **Docker Swarm on Azure**
+- Implemented **Envelope Encryption + TOTP**-based secure client-server communication architecture
+- Migrated Linux packaging from deb → **Snap** (security sandboxing + auto-update)
+- Built full E2E test suite with **Playwright** and automated deployment pipeline with TypeScript scripts
 
 #### 5. Data Pipeline & Streaming (Early Career)
 > *Lucent Block — Data & Infra Team (2019.12 ~ 2020.07)*
-- Implemented event-driven message queue server using **Apache Kafka**
-- Built cloud infrastructure with Kubernetes + EKS + Terraform
-- Performed Kafka performance benchmarking and system optimization
+- Implemented event-driven message queue using **Apache Kafka** on Kubernetes
+- Built cloud infrastructure with **EKS + Terraform**, performed Kafka benchmarking & optimization
 
 ---
 
@@ -73,24 +68,25 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 
 **Backend & Systems**
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
 **Frontend & Mobile**
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-**Data**
+**Data & Observability**
 ![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
----
+--- 
 
 ### 🏆 Open Source Contributions
 
