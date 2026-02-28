@@ -136,6 +136,7 @@ Guided hands-on enterprise web app development with Java 21, Spring Boot 3.4, AW
 
 ### 🏆 Certifications
 - **AWS Certified Solutions Architect – Associate** (Jan 2026 – Jan 2029) — [Verify via Credly](https://www.credly.com/badges/d48afb96-eb86-4599-ae11-ce1514a04a5d/public_url)
+- **CKA: Certified Kubernetes Administrator** (Feb 2026 – Feb 2029) — [Verify via Credly](https://www.credly.com/badges/dbcf36ea-5403-42d2-9de7-6b35a6cfb933/public_url)
 - **Engineer Information Processing** (Nov 2018)
 
 ---
