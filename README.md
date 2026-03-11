@@ -102,6 +102,9 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
   <a href="https://github.com/OpenZeppelin/rust-contracts-stylus">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=OpenZeppelin&repo=rust-contracts-stylus&theme=radical&show_owner=true" alt="OpenZeppelin" />
   </a>
+  <a href="https://github.com/grafana/metrics-drilldown">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=grafana&repo=metrics-drilldown&theme=radical&show_owner=true" alt="Grafana metrics-drilldown" />
+  </a>
 </div>
 
 <br/>
@@ -111,6 +114,8 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 **[RobustMQ](https://github.com/robustmq/robustmq)** (Rust) — Implemented `mqtt schema` CLI command ([PR #911](https://github.com/robustmq/robustmq/pull/911)) and refactored Broker Server logging for improved observability. ([PR #906](https://github.com/robustmq/robustmq/pull/906))
 
 **[OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus)** — Contributed to official documentation for Rust-based smart contracts. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
+
+**[Grafana metrics-drilldown](https://github.com/grafana/metrics-drilldown)** — Migrated `DashboardPanelMenu` extension from deprecated `category` to the new `group` API, enabling removal of the backward-compat shim in Grafana core. ([PR #1121](https://github.com/grafana/metrics-drilldown/pull/1121))
 
 ---
 
