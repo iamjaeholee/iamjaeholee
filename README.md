@@ -10,8 +10,8 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 
 ### ⚡ Highlights
 
-- 🏗️ **ECS → EKS Migration** — Full Terraform IaC migration with ArgoCD GitOps & Service Mesh (FitPet)
-- ☁️ **AWS Serverless Platform** — Built power forecasting SaaS & RAG-based LLM chatbot on Lambda + CDK (GS Energy)
+- 🏗️ **ECS → EKS Migration** — Full Terraform IaC migration with ArgoCD GitOps & Service Mesh
+- ☁️ **AWS Serverless Platform** — Built power forecasting SaaS & RAG-based LLM chatbot on Lambda + CDK
 - 🔭 **Observability** — Reduced Datadog costs via span/log optimization; built LangChain Tracing LLM pipeline
 - 🔐 **Security Architecture** — Envelope Encryption + TOTP secure comm, EKS RBAC & IAM automation
 - ☁️ **AWS Certified Solutions Architect – Associate** (2026–2029)
