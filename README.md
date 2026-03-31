@@ -21,7 +21,6 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 ### 🚀 Key Engineering Achievements
 
 #### 1. AWS EKS Infrastructure & GitOps (DevOps)
-> *FitPet — Infrastructure Team (2022.11 ~ 2023.02)*
 - Migrated all services from **ECS → EKS** using Terraform IaC, introduced Service Mesh for MSA stability
 - Designed IAM-integrated **RBAC** access control and configured **ArgoCD**-based GitOps deployment
 - Built serverless EKS resource scheduling admin system with AWS Lambda + Amplify + Cognito
@@ -29,7 +28,6 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 - Established **Kubernetes autoscaling** for improved availability and reliability
 
 #### 2. Serverless Infrastructure & AI Platform (DevOps + LLM)
-> *GS Energy — AWS Infra & Full-Stack (2024.11 ~ 2025.11)*
 - Automated full AI infrastructure with **AWS CDK (IaC)**: Lambda, OpenSearch, Secrets Manager, SSM
 - Implemented **multi-stage CI/CD** pipeline (dev→sandbox→prod) with GitHub Actions + branch strategy
 - Designed **Naive RAG + Agentic RAG** dual-architecture LLM chatbot (AWS Bedrock + OpenSearch vector store)
@@ -37,20 +35,17 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 - Configured large-scale data pipeline using **S3 + Athena**; designed DynamoDB schema by Access Pattern
 
 #### 3. IaC Automation & Serverless API (Terraform + Rust)
-> *Hut-Dul-Hut-Dul — Infra & Backend (2024.04 ~ 2024.07)*
 - Automated full AWS infrastructure (Lambda, S3, API Gateway, Athena) with **Terraform** IaC
 - Developed high-performance RESTful APIs using **Rust + Tokio** on AWS Lambda (Cargo Lambda)
 - Built serverless crawlers with Node.js + Puppeteer → S3 ingestion pipeline
 
 #### 4. DevOps Tooling & Secure Server Infrastructure
-> *CODEMIND Corp. — Senior Research Engineer (2023.06 ~ 2024.04)*
 - Deployed scalable license/update servers with **Docker Swarm on Azure**
 - Implemented **Envelope Encryption + TOTP**-based secure client-server communication architecture
 - Migrated Linux packaging from deb → **Snap** (security sandboxing + auto-update)
 - Built full E2E test suite with **Playwright** and automated deployment pipeline with TypeScript scripts
 
 #### 5. Data Pipeline & Streaming (Early Career)
-> *Lucent Block — Data & Infra Team (2019.12 ~ 2020.07)*
 - Implemented event-driven message queue using **Apache Kafka** on Kubernetes
 - Built cloud infrastructure with **EKS + Terraform**, performed Kafka benchmarking & optimization
 
@@ -106,6 +101,11 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=grafana&repo=metrics-drilldown&theme=radical&show_owner=true" alt="Grafana metrics-drilldown" />
   </a>
 </div>
+<div align="center">
+  <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=open-telemetry&repo=opentelemetry-collector-contrib&theme=radical&show_owner=true" alt="OpenTelemetry Collector Contrib" />
+  </a>
+</div>
 
 <br/>
 
@@ -116,6 +116,8 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 **[OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus)** — Contributed to official documentation for Rust-based smart contracts. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
 
 **[Grafana metrics-drilldown](https://github.com/grafana/metrics-drilldown)** — Migrated `DashboardPanelMenu` extension from deprecated `category` to the new `group` API, enabling removal of the backward-compat shim in Grafana core. ([PR #1121](https://github.com/grafana/metrics-drilldown/pull/1121))
+
+**[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** (CNCF) — Enabled re-aggregation support for `hostmetrics` receiver's `process` scraper ([PR #46752](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46752)) and `system` scraper ([PR #46753](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46753)), contributing to the broader metric attribute re-aggregation initiative.
 
 ---
 
