@@ -1,10 +1,10 @@
 ### Hi there, I'm Jaeho 👋
-**Senior DevOps / SRE / Cloud Infrastructure Engineer**
+**Senior DevOps / SRE / Cloud Infrastructure & AI Engineer**
 
-> Designing and Operating Cloud-Native Infrastructure with Kubernetes, Terraform & AWS
+> Designing Cloud-Native Infrastructure & Building Agentic AI/RAG Systems with Kubernetes, Terraform, AWS & LLMs
 
-6+ years of experience building **production cloud infrastructure** across 9+ companies.
-Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) operations**, **CI/CD automation**, and **serverless architecture**.
+6+ years of experience building **production cloud infrastructure** across 9+ companies, with growing focus on **applied AI engineering** — RAG systems and agentic LLM workflows.
+Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) operations**, **CI/CD automation**, **serverless architecture**, and **RAG / agentic AI system design**.
 
 ---
 
@@ -12,6 +12,7 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 
 - 🏗️ **ECS → EKS Migration** — Full Terraform IaC migration with ArgoCD GitOps & Service Mesh
 - ☁️ **AWS Serverless Platform** — Built power forecasting SaaS & RAG-based LLM chatbot on Lambda + CDK
+- 🤖 **Agentic AI & RAG Systems** — Built production RAG chatbots and tool-based agentic workflows using the **Strands Agents** framework
 - 🔭 **Observability** — Reduced Datadog costs via span/log optimization; built LangChain Tracing LLM pipeline
 - 🔐 **Security Architecture** — Envelope Encryption + TOTP secure comm, EKS RBAC & IAM automation
 - ☁️ **AWS Certified Solutions Architect – Associate** (2026–2029)
@@ -34,18 +35,24 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 - Built **LangChain Tracing**-based LLM observability pipeline; integrated chatbot into Microsoft Teams
 - Configured large-scale data pipeline using **S3 + Athena**; designed DynamoDB schema by Access Pattern
 
-#### 3. IaC Automation & Serverless API (Terraform + Rust)
+#### 3. Agentic Conversational AI Architecture (AI)
+- Built a production **RAG system** integrating retrieval-augmented context into LLM responses
+- Designed **tool-based agentic workflows** using the **Strands Agents** framework
+- Built **OpenSearch**-based vector retrieval infrastructure for the RAG pipeline
+- Built a two-stage classification pipeline — **intent classification → degression classification** — to drive conversation routing
+
+#### 4. IaC Automation & Serverless API (Terraform + Rust)
 - Automated full AWS infrastructure (Lambda, S3, API Gateway, Athena) with **Terraform** IaC
 - Developed high-performance RESTful APIs using **Rust + Tokio** on AWS Lambda (Cargo Lambda)
 - Built serverless crawlers with Node.js + Puppeteer → S3 ingestion pipeline
 
-#### 4. DevOps Tooling & Secure Server Infrastructure
+#### 5. DevOps Tooling & Secure Server Infrastructure
 - Deployed scalable license/update servers with **Docker Swarm on Azure**
 - Implemented **Envelope Encryption + TOTP**-based secure client-server communication architecture
 - Migrated Linux packaging from deb → **Snap** (security sandboxing + auto-update)
 - Built full E2E test suite with **Playwright** and automated deployment pipeline with TypeScript scripts
 
-#### 5. Data Pipeline & Streaming (Early Career)
+#### 6. Data Pipeline & Streaming (Early Career)
 - Implemented event-driven message queue using **Apache Kafka** on Kubernetes
 - Built cloud infrastructure with **EKS + Terraform**, performed Kafka benchmarking & optimization
 
@@ -80,6 +87,13 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+**AI & LLM Engineering**
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Strands Agents](https://img.shields.io/badge/Strands_Agents-FF9900?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-4B0082?style=for-the-badge)
 
 --- 
 
