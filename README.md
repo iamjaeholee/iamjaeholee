@@ -105,6 +105,9 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
   <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=open-telemetry&repo=opentelemetry-collector-contrib&theme=radical&show_owner=true" alt="OpenTelemetry Collector Contrib" />
   </a>
+  <a href="https://github.com/kubernetes-sigs/node-ipam-controller">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kubernetes-sigs&repo=node-ipam-controller&theme=radical&show_owner=true" alt="Kubernetes SIGs node-ipam-controller" />
+  </a>
 </div>
 
 <br/>
@@ -118,6 +121,8 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 **[Grafana metrics-drilldown](https://github.com/grafana/metrics-drilldown)** — Migrated `DashboardPanelMenu` extension from deprecated `category` to the new `group` API, enabling removal of the backward-compat shim in Grafana core. ([PR #1121](https://github.com/grafana/metrics-drilldown/pull/1121))
 
 **[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** (CNCF) — Enabled re-aggregation support for `hostmetrics` receiver's `process` scraper ([PR #46752](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46752)) and `system` scraper ([PR #46753](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46753)), contributing to the broader metric attribute re-aggregation initiative.
+
+**[Kubernetes SIGs node-ipam-controller](https://github.com/kubernetes-sigs/node-ipam-controller)** — Fixed a data race by adding lock protection around unguarded `cidrMap` accesses in the multi-CIDR range allocator. ([PR #98](https://github.com/kubernetes-sigs/node-ipam-controller/pull/98))
 
 ---
 
