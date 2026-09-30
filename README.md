@@ -100,43 +100,54 @@ Core strengths in **Infrastructure as Code (Terraform)**, **Kubernetes (EKS) ope
 ### 🏆 Open Source Contributions
 
 <div align="center">
+  <a href="https://github.com/servo/rust-smallvec">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=servo&repo=rust-smallvec&theme=radical&show_owner=true" alt="Servo rust-smallvec" />
+  </a>
+  <a href="https://github.com/mxsm/rocketmq-rust">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mxsm&repo=rocketmq-rust&theme=radical&show_owner=true" alt="Apache RocketMQ Rust" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/kubernetes-sigs/node-ipam-controller">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kubernetes-sigs&repo=node-ipam-controller&theme=radical&show_owner=true" alt="Kubernetes SIGs node-ipam-controller" />
+  </a>
+  <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=open-telemetry&repo=opentelemetry-collector-contrib&theme=radical&show_owner=true" alt="OpenTelemetry Collector Contrib" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/grafana/metrics-drilldown">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=grafana&repo=metrics-drilldown&theme=radical&show_owner=true" alt="Grafana metrics-drilldown" />
+  </a>
   <a href="https://github.com/recharts/recharts">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=recharts&repo=recharts&theme=radical&show_owner=true" alt="Recharts" />
-  </a>
-  <a href="https://github.com/robustmq/robustmq">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=robustmq&repo=robustmq&theme=radical&show_owner=true" alt="RobustMQ" />
   </a>
 </div>
 <div align="center">
   <a href="https://github.com/OpenZeppelin/rust-contracts-stylus">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=OpenZeppelin&repo=rust-contracts-stylus&theme=radical&show_owner=true" alt="OpenZeppelin" />
   </a>
-  <a href="https://github.com/grafana/metrics-drilldown">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=grafana&repo=metrics-drilldown&theme=radical&show_owner=true" alt="Grafana metrics-drilldown" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=open-telemetry&repo=opentelemetry-collector-contrib&theme=radical&show_owner=true" alt="OpenTelemetry Collector Contrib" />
-  </a>
-  <a href="https://github.com/kubernetes-sigs/node-ipam-controller">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kubernetes-sigs&repo=node-ipam-controller&theme=radical&show_owner=true" alt="Kubernetes SIGs node-ipam-controller" />
+  <a href="https://github.com/ibm-granite-community/granite-cli">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibm-granite-community&repo=granite-cli&theme=radical&show_owner=true" alt="IBM Granite CLI" />
   </a>
 </div>
 
 <br/>
 
-**[Recharts](https://github.com/recharts/recharts)** (24k+ Stars) — Refactored `Label.tsx` to eliminate implicit-any types, improving type safety and build stability. ([PR #5600](https://github.com/recharts/recharts/pull/5600))
+**🦀 Rust & Backend Ecosystem**
+* **[Servo / rust-smallvec](https://github.com/servo/rust-smallvec)** — Refactored `TaggedLen` structure to add robust arithmetic operations for the widely-used Rust collection library. ([PR #572](https://github.com/servo/rust-smallvec/pull/572))
+* **[Apache RocketMQ (Rust)](https://github.com/mxsm/rocketmq-rust)** — Fixed a critical deadline time-inversion bug in `PopOrderKey`, improving message queuing stability. ([PR #10293](https://github.com/mxsm/rocketmq-rust/pull/10293))
+* **[RobustMQ](https://github.com/robustmq/robustmq)** — Implemented `mqtt schema` CLI command and refactored Broker Server logging for better observability. ([PR #911](https://github.com/robustmq/robustmq/pull/911), [#906](https://github.com/robustmq/robustmq/pull/906))
+* **[OpenZeppelin / rust-contracts-stylus](https://github.com/OpenZeppelin/rust-contracts-stylus)** — Refactored `VestingWallet` to use a dedicated receive function for Rust-based smart contracts. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
+* **[IBM Granite CLI](https://github.com/ibm-granite-community/granite-cli)** — Added new `info` subcommands and fixed terminal warning streams for the IBM LLM platform CLI. ([PR #121](https://github.com/ibm-granite-community/granite-cli/pull/121), [#122](https://github.com/ibm-granite-community/granite-cli/pull/122))
 
-**[RobustMQ](https://github.com/robustmq/robustmq)** (Rust) — Implemented `mqtt schema` CLI command ([PR #911](https://github.com/robustmq/robustmq/pull/911)) and refactored Broker Server logging for improved observability. ([PR #906](https://github.com/robustmq/robustmq/pull/906))
+**☁️ Cloud Native & Observability (CNCF)**
+* **[Kubernetes SIGs / node-ipam-controller](https://github.com/kubernetes-sigs/node-ipam-controller)** — Fixed a data race by adding lock protection around unguarded `cidrMap` accesses in the multi-CIDR range allocator. ([PR #98](https://github.com/kubernetes-sigs/node-ipam-controller/pull/98))
+* **[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** — Enabled metric re-aggregation support for `hostmetrics` receiver's system and process scrapers. ([PR #46752](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46752), [#46753](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46753))
+* **[Grafana / metrics-drilldown](https://github.com/grafana/metrics-drilldown)** — Migrated the `DashboardPanelMenu` extension to the new API, enabling deprecation of legacy shims in Grafana core. ([PR #1121](https://github.com/grafana/metrics-drilldown/pull/1121))
 
-**[OpenZeppelin](https://github.com/OpenZeppelin/rust-contracts-stylus)** — Contributed to official documentation for Rust-based smart contracts. ([PR #529](https://github.com/OpenZeppelin/rust-contracts-stylus/pull/529))
-
-**[Grafana metrics-drilldown](https://github.com/grafana/metrics-drilldown)** — Migrated `DashboardPanelMenu` extension from deprecated `category` to the new `group` API, enabling removal of the backward-compat shim in Grafana core. ([PR #1121](https://github.com/grafana/metrics-drilldown/pull/1121))
-
-**[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** (CNCF) — Enabled re-aggregation support for `hostmetrics` receiver's `process` scraper ([PR #46752](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46752)) and `system` scraper ([PR #46753](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/46753)), contributing to the broader metric attribute re-aggregation initiative.
-
-**[Kubernetes SIGs node-ipam-controller](https://github.com/kubernetes-sigs/node-ipam-controller)** — Fixed a data race by adding lock protection around unguarded `cidrMap` accesses in the multi-CIDR range allocator. ([PR #98](https://github.com/kubernetes-sigs/node-ipam-controller/pull/98))
+**🎨 Frontend**
+* **[Recharts](https://github.com/recharts/recharts)** (24k+ Stars) — Added `brush dy` feature / Refactored `Label.tsx` to eliminate implicit-any types, improving type safety. ([PR #5600](https://github.com/recharts/recharts/pull/5600))
 
 ---
 
